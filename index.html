@@ -104,6 +104,26 @@
 
     </div>
 
+    <script>
+
+        let warning = document.querySelector("#atencao")
+
+        function redirect() {
+            var select = document.getElementById("pageSelect");
+            var selectedOption = select.options[select.selectedIndex].value;
+            if (selectedOption !== "") {
+                window.location.href = selectedOption;
+            }
+        }
+        
+            setInterval(() => {
+                warning.classList.toggle('cor')
+            }, 1000)
+     
+
+    </script>
+
+
 
 
 
