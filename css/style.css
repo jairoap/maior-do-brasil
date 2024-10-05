@@ -3,3 +3,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 
+h4{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.125rem;
+    margin-top: 1.5rem;
+}
+
+  th{
+    color: #c04fe9;
+}
+
+body{
+  background: linear-gradient(rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.8)), url('../img/brasil.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+  height: 100vh;
+} 
+
+#ranking{
+    /* background: linear-gradient(rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.8)); */
+    background: linear-gradient(rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.8)), url('../img/brasil.jpg');
+  }
+  
+  h1{
+    background-image: linear-gradient(to right, #2a112a , #c04fe9) ;
+    font-family: "Creepster";
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.12rem;
+  }
+
+  h1>a{
+    text-decoration: none;
+    color: #4be60ec0;
+    transition: all 0.3s;
+  }
+  
+  h1>a:hover{
+    color: #4be60eea;
+  }
