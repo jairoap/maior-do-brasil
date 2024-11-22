@@ -23,7 +23,7 @@ background-size: cover;
 background-position: center;  
 height: 100vh;
 height: calc(100vh + 4px);
-overflow: hidden;
+overflow: auto;
 } 
 
 #ranking{
